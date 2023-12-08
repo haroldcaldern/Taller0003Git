@@ -9,8 +9,8 @@
 
 	<link href="./css/style.css" type="text/css" rel="stylesheet" />
 	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+		integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 
 <body>
@@ -34,33 +34,40 @@
 							</td>
 						</tr>
 						<tr>
-							<td><input type="button" id="apagarAnterior" value="<-" /></td>
-							<td><input type="button" id="limparTela" value="C" /></td>
+							<td><input type="button" id="apagarAnterior" class="btn btn-success" value="CE" /></td>
+							<td><input type="button" id="limparTela" class="btn btn-primary" value="C" /></td>
 						</tr>
 						<tr>
-							<td><input type="button" id="num7" value="7" /></td>
-							<td><input type="button" id="num8" value="8" /></td>
-							<td><input type="button" id="num9" value="9" /></td>
-							<td><input type="button" id="divisao" value="/" /></td>
+							<td><input type="button" id="num7" class="btn btn-dark" value="7"  /></td>
+							<td><input type="button" id="num8" class="btn btn-dark" value="8" /></td>
+							<td><input type="button" id="num9" class="btn btn-dark" value="9" /></td>
+							<td><input type="button" id="divisao" class="btn btn-warning" value="/" /></td>
 						</tr>
 						<tr>
-							<td><input type="button" id="num4" value="4" /></td>
-							<td><input type="button" id="num5" value="5" /></td>
-							<td><input type="button" id="num6" value="6" /></td>
-							<td><input type="button" id="multiplicacao" value="*" /></td>
+							<td><input type="button" id="num4" class="btn btn-dark" value="4" /></td>
+							<td><input type="button" id="num5" class="btn btn-dark" value="5" /></td>
+							<td><input type="button" id="num6" class="btn btn-dark" value="6" /></td>
+							<td><input type="button" id="multiplicacao" class="btn btn-warning" value="*" /></td>
 						</tr>
 						<tr>
-							<td><input type="button" id="num1" value="1" /></td>
-							<td><input type="button" id="num2" value="2" /></td>
-							<td><input type="button" id="num3" value="3" /></td>
-							<td><input type="button" id="subtracao" value="-" /></td>
+							<td><input type="button" id="num1" class="btn btn-dark" value="1" /></td>
+							<td><input type="button" id="num2" class="btn btn-dark" value="2" /></td>
+							<td><input type="button" id="num3" class="btn btn-dark" value="3" /></td>
+							<td><input type="button" id="subtracao" class="btn btn-warning" value="-" /></td>
 						</tr>
 						<tr>
-							<td><input type="button" id="num0" value="0" /></td>
-							<td><input type="button" id="ponto" value="." /></td>
-							<td><input type="button" id="resultado" value="=" /></td>
-							<td><input type="button" id="soma" value="+" /></td>
+							<td><input type="button" id="num0" class="btn btn-dark" value="0" /></td>
+							<td><input type="button" id="ponto" class="btn btn-warning" value="." /></td>
+							<td><input type="button" id="resultado" class="btn btn-warning" value="=" /></td>
+							<td><input type="button" id="soma" class="btn btn-warning" value="+" /></td>
 						</tr>
+					</table>
+					<table>
+						
+							<td>
+								<input type="button" id="convertir" class="btn btn-secondary" value="Convertir" />
+							</td>
+						
 					</table>
 				</div>
 			</div>
